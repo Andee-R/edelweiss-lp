@@ -1,0 +1,9 @@
+.HeroContainer {
+  padding: 15px 20px;
+}
+.HeroContainer h1 {
+  padding: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: var(--branding-color);
+}

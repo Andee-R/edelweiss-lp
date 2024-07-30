@@ -9,7 +9,8 @@ export default function HeroContainer() {
         <div className="col-7">
           <h1>Edelweiss Biergarten</h1>
         </div>
-        <div className="col-3">
+
+        <div className="col-5">
           <p>
             about us about us about us about us about us about us about us about
             us about us about us about us about us about us about about us about

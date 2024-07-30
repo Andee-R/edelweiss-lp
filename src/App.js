@@ -12,7 +12,13 @@ function App() {
       <MenuGrid />
       <Events />
 
-      <footer className="Footer">How to contact </footer>
+      <footer className="Footer">
+        <div className="Contact Us">
+          <p>website: www.edelweissbiergarten.com</p>
+          <p>Facebook: Edelweiss Biergarten</p>
+          <p> Phone: 602-404-5919</p>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -6,13 +6,15 @@ export default function Events() {
       <div className="row">
         <div className="col-6">
           <img src="/"></img>
-          <h4>Larry Roberts</h4>
-          <p>Larry is our resident Accordion player!</p>
+          <h5>Live Music</h5>
+          <p>
+            Join us for live music Wednesday thru Sunday with Larry Roberts our
+            resident Accordion player!
+          </p>
         </div>
-
         <div className="col-6">
           <img src="/"></img>
-          <h4>Events</h4>
+          <h5>Events</h5>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./MenuGrid.css";
+import "../components/MenuGrid.css";
 export default function MenuGrid() {
   return (
     <div className="MenuGrid">

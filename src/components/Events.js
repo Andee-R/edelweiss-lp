@@ -1,5 +1,6 @@
 import React from "react";
-import "./Events.css";
+import "../components/Events.css";
+
 export default function Events() {
   return (
     <div className="Events">

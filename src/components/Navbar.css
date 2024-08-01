@@ -1,4 +1,4 @@
-.Header {
+.Navbar {
   top: 0;
   left: 0;
   width: 100%;
@@ -11,7 +11,7 @@
   z-index: 100;
 }
 
-.Navbar a {
+.Navbar Link {
   position: relative;
   font-size: 18px;
   font-weight: 500;
@@ -20,7 +20,7 @@
   color: var(--branding-color);
 }
 
-.Navbar a::before {
+.Navbar Link::before {
   content: "";
   position: absolute;
   top: 100%;
@@ -30,6 +30,6 @@
   background: var(--branding-color);
   transition: 0.3s;
 }
-.Navbar a:hover::before {
+.Navbar Link:hover::before {
   width: 100%;
 }

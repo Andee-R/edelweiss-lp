@@ -1,13 +1,19 @@
 import "./App.css";
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar";
 import HeroContainer from "./HeroContainer";
-import MenuGrid from "./MenuGrid";
-import Events from "./Events";
+import MenuGrid from "./components/MenuGrid";
+import Events from "./components/Events";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" exact />
+        </Routes>
+      </BrowserRouter>
       <HeroContainer />
       <MenuGrid />
       <Events />
@@ -19,7 +25,7 @@ function App() {
           <p> Phone: 602-404-5919</p>
         </div>
       </footer>
-    </div>
+    </>
   );
 }
 

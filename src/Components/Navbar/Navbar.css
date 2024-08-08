@@ -1,4 +1,4 @@
-.Navbar {
+.navbarContainer {
   top: 0;
   left: 0;
   width: 100%;
@@ -6,12 +6,11 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 10px;
-
   align-items: center;
   z-index: 100;
 }
 
-.Navbar Link {
+.navbarContainer li {
   position: relative;
   font-size: 18px;
   font-weight: 500;
@@ -20,7 +19,7 @@
   color: var(--branding-color);
 }
 
-.Navbar Link::before {
+.navbarContainer li::before {
   content: "";
   position: absolute;
   top: 100%;
@@ -30,6 +29,6 @@
   background: var(--branding-color);
   transition: 0.3s;
 }
-.Navbar Link:hover::before {
+.navbarContainer li:hover::before {
   width: 100%;
 }

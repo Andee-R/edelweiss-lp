@@ -1,10 +1,18 @@
 import "./App.css";
+import Events from "./Components/Events/Events";
+import Hero from "./Components/Hero/Hero";
+import Menu from "./Components/Menu/Menu";
 import Navbar from "./Components/Navbar/Navbar";
+import Reservations from "./Components/Reservations/Reservations";
 
 function App() {
   return (
     <>
       <Navbar />
+      <Hero />
+      <Events />
+      <Reservations />
+      <Menu />
 
       <footer className="Footer">
         <div className="Contact Us">

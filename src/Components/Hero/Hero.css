@@ -1,11 +1,12 @@
 .hero {
-  width: 100%;
-  min-height: 100vh;
-  background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)),
+  background: linear-gradient(rgba(8, 0, 58, 0.4), rgba(8, 0, 58, 0.4)),
     url(../../assests/edelweisskegs.png);
+
   background-size: cover;
-  color: var(--primary-color);
   background-position: center;
+  color: var(--primary-color);
+  min-height: 100vh;
+  width: 100%;
 }
 
 .heroText {

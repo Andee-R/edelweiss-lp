@@ -1,0 +1,32 @@
+.special {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(8, 0, 58, 0.4), rgba(8, 0, 58, 0.4)),
+    url(../../assests/biergarten.png);
+  background-size: cover;
+  color: var(--primary-color);
+  background-position: center;
+}
+.special h3 {
+  font-size: 86px;
+  text-align: left;
+  padding-top: 150px;
+  padding-left: 40px;
+}
+.special p {
+  padding-left: 70px;
+  font-size: 26px;
+  text-align: left;
+}
+.events {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.event {
+  width: 200px;
+  border-radius: 20px;
+  flex-basis: 30%;
+}

@@ -1,16 +1,18 @@
 import "./App.css";
-import Events from "./Components/Events/Events";
+import Resident from "./Components/Resident/Resident";
 import Hero from "./Components/Hero/Hero";
 import Menu from "./Components/Menu/Menu";
 import Navbar from "./Components/Navbar/Navbar";
 import Reservations from "./Components/Reservations/Reservations";
+import Special from "./Components/Special/Special";
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Events />
+      <Resident />
+      <Special />
       <Reservations />
       <Menu />
 

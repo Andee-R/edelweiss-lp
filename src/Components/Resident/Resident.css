@@ -1,0 +1,20 @@
+.resident {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(8, 0, 59, 0.4), rgba(8, 0, 58, 0.4)),
+    url(../../assests/larry-roberts.png);
+  background-size: cover;
+  color: var(--primary-color);
+  background-position: center;
+}
+.resident h3 {
+  text-align: right;
+  padding-top: 200px;
+  font-size: 90px;
+  padding-right: 30px;
+}
+.resident p {
+  text-align: right;
+  padding-right: 70px;
+  font-size: 26px;
+}

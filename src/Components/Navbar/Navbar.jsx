@@ -1,11 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import edelweisslogo from "../../assests/edelweisslogo.png";
 
 const Navbar = () => {
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      window.scrollY > 90 ? setSticky(true) : setSticky(false);
+    });
+  }, []);
+
   return (
     <>
-      <nav className="nav">
+      <nav className={`nav ${sticky ? "darkNav" : ""}`}>
         <img src={edelweisslogo} alt="" className="logo" />
         <ul>
           <li>Home</li>

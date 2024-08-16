@@ -1,4 +1,11 @@
 .reservations {
-  display: flex;
-  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.reservations h4 {
+  font-size: 38px;
+}
+.reservations p {
+  font-size: 18px;
 }

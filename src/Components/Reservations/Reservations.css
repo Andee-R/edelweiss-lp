@@ -9,3 +9,22 @@
 .reservations p {
   font-size: 18px;
 }
+
+.reservationForm {
+  background: var(--secondary-color);
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+.reservationForm .btn {
+  padding: 14px 25px;
+  font-size: 20px;
+  background: var(--branding-color);
+  color: var(--primary-color);
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
+.reservationForm .btn :hover {
+  color: var(--branding-color);
+}

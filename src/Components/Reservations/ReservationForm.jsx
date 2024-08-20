@@ -32,7 +32,6 @@ const ReservationForm = () => {
                 placeholder="Party Size"
               />
             </div>
-
             <div className="col-4 p-3">
               <input
                 type="text"
@@ -60,6 +59,7 @@ const ReservationForm = () => {
               />
             </div>
           </div>
+          <button className="btn"> Submit</button>
         </form>
       </div>
     </>

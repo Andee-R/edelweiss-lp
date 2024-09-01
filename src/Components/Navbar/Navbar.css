@@ -33,5 +33,6 @@
 }
 .darkNav {
   background: var(--primary-color);
+  color: #000000;
   transition: 0.5s;
 }

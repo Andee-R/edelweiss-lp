@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import edelweisslogo from "../../assests/Flattend_new_logo.png";
+import biermenu from "../../assests/biermenu.pdf"
+import cocktail from "../../assests/cocktails.pdf"
+import food from "../../assests/foodmenu.pdf"
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -17,9 +20,9 @@ const Navbar = () => {
         <img src={edelweisslogo} alt="" className="logo" />
         <ul>
           <li>Home</li>
-          <li>Beer Menu</li>
-          <li>Cocktail Menu</li>
-          <li>Food Menu</li>
+          <li><a href = {biermenu} target = "_blank">Beer Menu</a></li>
+          <li><a href = {cocktail} target = "_blank">Cocktail Menu</a></li>
+          <li><a href = {food} target = "_blank">Food Menu</a></li>
           <li>Host an Event</li>
           <li>Gallery</li>
           <li>Larry Roberts Live</li>

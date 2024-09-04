@@ -1,8 +1,8 @@
 import React from "react";
 import "./Special.css";
-import biergarten from "../../assests/edelweiss_biergarten.jpg";
-import backroom from "../../assests/back_room.png";
-import movie from "../../assests/Movie_night.png";
+import biergarten from "../../assets/edelweiss_biergarten.jpg";
+import backroom from "../../assets/back_room.png";
+import movie from "../../assets/Movie_night.png";
 
 const Special = () => {
   return (

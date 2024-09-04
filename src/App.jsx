@@ -4,9 +4,13 @@ import Hero from "./Components/Hero/Hero";
 import Menu from "./Components/Menu/Menu";
 import Navbar from "./Components/Navbar/Navbar";
 import Special from "./Components/Special/Special";
+import { HashRouter, Route, Routes, Link } from "react-router-dom";
+import gallery from "./pages/gallery";
+import events from "./pages/events";
 
 function App() {
   return (
+    
     <>
       <Navbar />
       <Hero />
@@ -14,7 +18,7 @@ function App() {
       <Special />
       <about />
       <Menu />
-
+      
       <footer className="Footer">
         <div className="Contact Us">
           <p>website: www.edelweissbiergarten.com</p>

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import edelweisslogo from "../../assets/Flattend_new_logo.png";
-
-import { Link } from "react-router-dom";
-import { ScrollLink } from "react-scroll";
+import edelweisslogo from "../../assests/Flattend_new_logo.png";
+import biermenu from "../../assests/biermenu.pdf";
+import cocktail from "../../assests/cocktails.pdf";
+import food from "../../assests/foodmenu.pdf";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);

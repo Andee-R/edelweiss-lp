@@ -4,7 +4,9 @@ import edelweisslogo from "../../assets/Flattend_new_logo.png";
 import biermenu from "../../assets/biermenu.pdf";
 import cocktail from "../../assets/cocktails.pdf";
 import food from "../../assets/foodmenu.pdf";
-import { ScrollLink } from "react-scroll";
+import gallery from "../../pages/Gallery";
+import events from "../../pages/Events";
+import { HashRouter, Route, Routes, Link } from "react-router-dom";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -16,37 +18,40 @@ const Navbar = () => {
   }, []);
 
   return (
-    <>
+    <HashRouter>
       <nav className={`nav ${sticky ? "darkNav" : ""}`}>
         <img src={edelweisslogo} alt="" className="logo" />
         <ul>
           <li>Home</li>
-          <li className="menuLinks">
+          <li>
             <a href={biermenu} target="_blank">
-              Bier Menu
+              Beer Menu
             </a>
           </li>
-          <li className="menuLinks">
+          <li>
             <a href={cocktail} target="_blank">
               Cocktail Menu
             </a>
           </li>
-          <li className="menuLinks">
+          <li>
             <a href={food} target="_blank">
               Food Menu
             </a>
           </li>
-          <li>Host an Event</li>
-          <li>Gallery</li>
-          <li className="menuLinks">
-            {" "}
-            <a href="" target="_blank">
-              Larry Roberts Live{" "}
-            </a>
+          <li>
+            <Link to={"/events"}> Host an Event</Link>
           </li>
+          <li>
+            <Link to={"/gallery"}>Gallery</Link>
+          </li>
+          <li>Larry Roberts Live</li>
         </ul>
       </nav>
-    </>
+      <Routes>
+        <Route path="/events" element={<events />} />
+        <Route path="/gallery" element={<gallery />} />
+      </Routes>
+    </HashRouter>
   );
 };
 

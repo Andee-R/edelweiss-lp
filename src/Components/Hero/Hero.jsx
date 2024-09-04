@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { useNavigate } from "react-router-dom";
-import edelweisskegs from "../../assests/biergarten.png";
+import edelweisskegs from "../../assets/biergarten.png";
 
 const Hero = () => {
   return (

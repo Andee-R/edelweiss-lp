@@ -1,6 +1,6 @@
 import React from "react";
 import "./Resident.css";
-import larryRoberts from "../../assests/larry-roberts.png";
+import larryRoberts from "../../assets/larry-roberts.png";
 const Resident = () => {
   return (
     <>

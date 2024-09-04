@@ -18,3 +18,10 @@
   padding-right: 70px;
   font-size: 26px;
 }
+.resident a {
+  text-decoration: none;
+  font-size: 26px;
+  color: var(--branding-color);
+  text-align: left;
+  padding: 80px;
+}

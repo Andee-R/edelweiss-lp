@@ -4,6 +4,7 @@ import edelweisslogo from "../../assets/Flattend_new_logo.png";
 import biermenu from "../../assets/biermenu.pdf";
 import cocktail from "../../assets/cocktails.pdf";
 import food from "../../assets/foodmenu.pdf";
+import { ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -37,7 +38,12 @@ const Navbar = () => {
           </li>
           <li>Host an Event</li>
           <li>Gallery</li>
-          <li>Larry Roberts Live</li>
+          <li className="menuLinks">
+            {" "}
+            <a href="" target="_blank">
+              Larry Roberts Live{" "}
+            </a>
+          </li>
         </ul>
       </nav>
     </>

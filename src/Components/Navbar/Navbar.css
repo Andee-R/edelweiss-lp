@@ -34,5 +34,8 @@
 }
 .darkNav a {
   color: #000000;
-  transition: 0.5s;
+}
+
+.menuLinks a:hover {
+  text-decoration: underline;
 }

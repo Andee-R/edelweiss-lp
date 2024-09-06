@@ -1,24 +1,22 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Resident from "./Components/Resident/Resident";
-import Hero from "./Components/Hero/Hero";
+import Home from "./Components/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
-import Special from "./Components/Special/Special";
 import About from "./Components/About/About";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-`//import { HashRouter, Route, Routes, Link } from "react-router-dom";``//import events from "./pages/events";``//import gallery from "./pages/gallery";`;
+import Gallery from "./pages/Gallery";
+import Events from "./pages/Events";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<Hero />} />
-        </Routes>
-      </BrowserRouter>
       <Navbar />
-      <Hero />
+      <Routes>
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/events" element={<Events />} />
+      </Routes>
+      <Home />
       <Resident />
-      <Special />
       <About />
     </>
   );

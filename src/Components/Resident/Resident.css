@@ -18,10 +18,14 @@
   padding-right: 70px;
   font-size: 26px;
 }
-.resident a {
-  text-decoration: none;
-  font-size: 26px;
-  color: var(--branding-color);
-  text-align: left;
-  padding: 80px;
+
+.resident .btn {
+  padding: 14px 25px;
+  font-size: 16px;
+  background: var(--branding-color);
+  color: #000000;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
 }

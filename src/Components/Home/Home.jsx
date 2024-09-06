@@ -1,15 +1,12 @@
 import React from "react";
-import "./Hero.css";
-import { useNavigate } from "react-router-dom";
-import edelweisskegs from "../../assets/biergarten.png";
+import "./Home.css";
+import beirgarten from "../../assets/biergarten.png";
 
-
-const Hero = () => {
+const Home = () => {
   return (
-    <div className="hero">
-      <div className="heroText container">
+    <div className="home">
+      <div className="homeText container">
         <h1>Edelweiss Biergarten</h1>
-        <p></p>
         <p>
           <span style={{ color: "yellow" }}>
             &#9733;&#9733;&#9733;&#9733;&#9733;
@@ -46,4 +43,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

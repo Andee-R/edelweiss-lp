@@ -1,10 +1,9 @@
 import React from "react";
 import "./Home.css";
-import beirgarten from "../../assets/biergarten.png";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home ">
       <div className="homeText container">
         <h1>Edelweiss Biergarten</h1>
         <p>

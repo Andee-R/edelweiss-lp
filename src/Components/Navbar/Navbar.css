@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: space-between;
   z-index: 10;
+  cursor: pointer;
 }
 
 .logo {
@@ -21,18 +22,20 @@
   margin: 5px 20px;
   font-size: 20px;
 }
-.nav .btn {
-  padding: 14px 25px;
-  font-size: 20px;
-  background: var(--branding-color);
-  color: var(--primary-color);
-  border-radius: 30px;
-  cursor: pointer;
-  border: 0;
-  outline: 0;
-}
+
 .darkNav {
   background: var(--primary-color);
   color: #000000;
   transition: 0.5s;
+}
+.menuLinks a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+.darkNav a {
+  color: #000000;
+}
+
+.menuLinks a:hover {
+  text-decoration: underline;
 }

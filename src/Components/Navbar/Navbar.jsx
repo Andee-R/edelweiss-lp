@@ -1,15 +1,17 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
+import { FaBars, FaTimes } from "react-icons/fa";
 import edelweisslogo from "../../assets/Flattend_new_logo.png";
-import biermenu from "../../assets/biermenu.pdf"
-import cocktail from "../../assets/cocktails.pdf"
-import food from "../../assets/foodmenu.pdf"
-import gallery from "../../pages/gallery"
-import events from "../../pages/events"
-import { HashRouter, Route, Routes, Link } from "react-router-dom";
+import biermenu from "../../assets/biermenu.pdf";
+import cocktail from "../../assets/cocktails.pdf";
+import food from "../../assets/foodmenu.pdf";
 
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
   const [sticky, setSticky] = useState(false);
 
   useEffect(() => {
@@ -19,24 +21,37 @@ const Navbar = () => {
   }, []);
 
   return (
-    <HashRouter>
-      <nav className={`nav ${sticky ? "darkNav" : ""}`}>
+    <nav className={`nav ${sticky ? "darkNav" : ""}`}>
+      <Link to="/home">
         <img src={edelweisslogo} alt="" className="logo" />
-        <ul>
-          <li>Home</li>
-          <li><a href = {biermenu} target = "_blank">Beer Menu</a></li>
-          <li><a href = {cocktail} target = "_blank">Cocktail Menu</a></li>
-          <li><a href = {food} target = "_blank">Food Menu</a></li>
-          <li><Link to={"/events"}> Host an Event</Link></li>
-          <li><Link to={"/gallery"}>Gallery</Link></li>
-          <li>Larry Roberts Live</li>
-        </ul>
-      </nav>
-      <Routes>
-        <Route path="/events" element={<events />}/>
-        <Route path="/gallery" element={<gallery />}/>
-      </Routes>
-    </HashRouter>
+      </Link>
+      <ul className="menuLinks">
+        <li>
+          <Link to="/home">Home</Link>
+        </li>
+        <li>
+          <Link to={biermenu} target="_blank">
+            Bier Menu
+          </Link>
+        </li>
+        <li>
+          <Link to={cocktail} target="_blank">
+            Cocktail Menu
+          </Link>
+        </li>
+        <li>
+          <Link to={food} target="_blank">
+            Food Menu
+          </Link>
+        </li>
+        <li>
+          <Link to="/events">Host an Event</Link>
+        </li>
+        <li>
+          <Link to="/gallery">Gallery</Link>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

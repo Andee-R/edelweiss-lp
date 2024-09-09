@@ -1,31 +1,27 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Resident from "./Components/Resident/Resident";
-import Hero from "./Components/Hero/Hero";
-import Menu from "./Components/Menu/Menu";
 import Navbar from "./Components/Navbar/Navbar";
-import Special from "./Components/Special/Special";
-import { HashRouter, Route, Routes, Link } from "react-router-dom";
-import gallery from "./pages/gallery";
-import events from "./pages/events";
+import About from "./Components/About/About";
+import Home from "./pages/Home/Home";
+import BierMenu from "./pages/BierMenu";
+import Gallery from "./pages/Gallery";
+import Events from "./pages/Events";
 
 function App() {
   return (
-    
     <>
       <Navbar />
-      <Hero />
+
+      <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/events" element={<Events />} />
+        <Route path="/biermenu" element={<BierMenu />} />
+      </Routes>
       <Resident />
-      <Special />
-      <about />
-      <Menu />
-      
-      <footer className="Footer">
-        <div className="Contact Us">
-          <p>website: www.edelweissbiergarten.com</p>
-          <p>Facebook: Edelweiss Biergarten</p>
-          <p> Phone: 602-404-5919</p>
-        </div>
-      </footer>
+      <About />
     </>
   );
 }

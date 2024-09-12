@@ -19,11 +19,9 @@
   font-size: 90px;
   font-weight: 600;
   vertical-align: top;
+  text-align: center;
 }
-.container .images {
-  display: flex;
-  justify-content: center;
-}
+
 .img-thumbnail {
   width: 400px;
   height: 400px;

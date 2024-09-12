@@ -1,9 +1,9 @@
 import React from "react";
 import "./Home.css";
 
-const Home = () => {
+function Home() {
   return (
-    <div className="home ">
+    <div className="home">
       <div className="homeText container">
         <h1>Edelweiss Biergarten</h1>
         <p>
@@ -40,6 +40,6 @@ const Home = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Home;

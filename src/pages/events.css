@@ -1,7 +1,6 @@
 .events {
   background: linear-gradient(rgba(8, 0, 58, 0.5), rgba(8, 0, 58, 0.5)),
     url(../assets/back_room.png);
-
   background-size: cover;
   background-position: center;
   color: var(--primary-color);
@@ -21,18 +20,8 @@
   vertical-align: top;
 }
 .eventsText p {
-  font-size: 25px;
+  font-size: 35px;
   max-width: 900px;
   margin: 10px auto 20px;
-  line-height: 1.4;
-}
-.events .btn {
-  padding: 14px 25px;
-  font-size: 16px;
-  background: var(--branding-color);
-  color: #000000;
-  border-radius: 30px;
-  cursor: pointer;
-  border: 0;
-  outline: 0;
+  line-height: 8;
 }

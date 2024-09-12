@@ -9,14 +9,15 @@ const Gallery = () => {
     <div className="gallery">
       <div className="galleryText container">
         <h1> Gallery</h1>
-      </div>
-      <div className="images container">
-        <div className="slider">
-          <div className="slide">
-            <img src={taps} class="img-thumbnail" alt="..." />
-            <img src={taps} class="img-thumbnail" alt="..." />
-            <img src={taps} class="img-thumbnail" alt="..." />
-            <img src={taps} class="img-thumbnail" alt="..." />
+
+        <div className="images">
+          <div className="slider">
+            <div className="slide">
+              <img src={taps} class="img-thumbnail" alt="..." />
+              <img src={taps} class="img-thumbnail" alt="..." />
+              <img src={taps} class="img-thumbnail" alt="..." />
+              <img src={taps} class="img-thumbnail" alt="..." />
+            </div>
           </div>
         </div>
       </div>

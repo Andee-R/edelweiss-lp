@@ -11,13 +11,11 @@
 .eventsText {
   padding-top: 150px;
   max-width: 800px;
-  text-align: center;
 }
 .eventsText h1 {
   color: #ffffff;
   font-size: 90px;
   font-weight: 600;
-  vertical-align: top;
 }
 .eventsText p {
   font-size: 35px;

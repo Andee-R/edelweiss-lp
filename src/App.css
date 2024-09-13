@@ -12,6 +12,8 @@
 }
 body {
   background: var(--primary-color);
-  
 }
 
+.container {
+  text-align: center;
+}

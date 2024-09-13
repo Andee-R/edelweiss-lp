@@ -8,20 +8,20 @@ function Events() {
   return (
     <div className="events">
       <div className="eventsText container">
-        <h1>Upcoming Events</h1>
-        <div className="row">
-          <div className="col">
-            <p className="title">Oktoberfest - 9/21-10/30</p>
-            <img src={biergarten} alt="" className="img-thumbnail" />
-          </div>
-          <div className="col">
-            <p className="title">Movie Night Monday's</p>
-            <img src={movie} alt="" className="img-thumbnail" />
-          </div>
-          <div className="col">
-            <p className="title">Trivia Night Tuesday's</p>
-            <img src={backroom} alt="" className="img-thumbnail" />
-          </div>
+        <div>
+          <h1>Upcoming Events</h1>
+        </div>
+        <div>
+          <p className="title">Oktoberfest - 9/21-10/30</p>
+          <img src={biergarten} alt="" className="img-thumbnail" />
+        </div>
+        <div>
+          <img src={movie} alt="" className="img-thumbnail" />
+          <p className="title">Movie Night Monday's</p>
+        </div>
+        <div className="justify-content-space-between">
+          <p className="title">Trivia Night Tuesday's</p>
+          <img src={backroom} alt="" className="img-thumbnail" />
         </div>
       </div>
     </div>

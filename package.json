@@ -1,7 +1,7 @@
 {
   "name": "edelweiss.github.io",
   "version": "0.1.0",
-  "homepage": "https://packetchaos.github.io/edelweiss.github.io",
+  "homepage": "https://andee-r.github.io/edelweiss-lp/",
   "private": true,
   "dependencies": {
     "-": "^0.0.1",
@@ -11,7 +11,6 @@
     "bootstrap": "^5.3.3",
     "edelweiss-lp": "file:",
     "edelweiss.github.io": "file:",
-    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
@@ -47,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }

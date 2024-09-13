@@ -4,8 +4,8 @@ import Resident from "./Components/Resident";
 import Navbar from "./Components/Navbar/Navbar";
 import About from "./Components/About/About";
 import Home from "./pages/Home";
-import Gallery from "./pages/Gallery";
-import Events from "./pages/Events";
+import Gallery from "../pages/Gallery";
+import Events from "../pages/Events";
 
 function App() {
   return (

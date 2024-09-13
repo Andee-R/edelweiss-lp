@@ -49,12 +49,8 @@ const Navbar = () => {
         <li>
           <Link to="/events">Host an Event</Link>
         </li>
-
         <li>
           <Link to="/gallery">Gallery</Link>
-        </li>
-        <li>
-          <Link to="/resident">Larry Roberts Live</Link>
         </li>
       </ul>
     </nav>

@@ -11,16 +11,16 @@ function events() {
         <div>
           <h1>Upcoming Events</h1>
         </div>
-        <div>
+        <div className="d-flex justify-content-space-between">
           <p className="title">Oktoberfest - 9/21-10/30</p>
           <img src={biergarten} alt="" className="img-thumbnail" />
         </div>
-        <div>
+        <div className="d-flex justify-content-space-between">
           <img src={movie} alt="" className="img-thumbnail" />
-          <p className="title">Movie Night Monday's</p>
+          <p className="title ">Movie Night Monday's</p>
         </div>
-        <div className="justify-content-space-between">
-          <p className="title">Trivia Night Tuesday's</p>
+        <div className="d-flex justify-content-space-between">
+          <p className="title ">Trivia Night Tuesday's</p>
           <img src={backroom} alt="" className="img-thumbnail" />
         </div>
       </div>

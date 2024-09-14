@@ -12,10 +12,13 @@ const gallery = () => {
       <div className="images container">
         <div className="slider">
           <div className="slide">
-            <img src={pretzel} class="img-thumbnail" alt="..." />
-            <img src={taps} class="img-thumbnail" alt="..." />
-            <img src={taps} class="img-thumbnail" alt="..." />
-            <img src={taps} class="img-thumbnail" alt="..." />
+            <img src={pretzel} class="img-thumbnail img-fluid" alt="..." />
+
+            <img src={taps} class="img-thumbnail img-fluid" alt="..." />
+
+            <img src={taps} class="img-thumbnail img-fluid" alt="..." />
+
+            <img src={taps} class="img-thumbnail img-fluid " alt="..." />
           </div>
         </div>
       </div>

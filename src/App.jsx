@@ -4,7 +4,7 @@ import Resident from "./Components/Resident/Resident";
 import Navbar from "./Components/Navbar/Navbar";
 import About from "./Components/About/About";
 import Home from "./pages/Home";
-import Gallery from "./pages/Gallery";
+import Gallery from "./pages/gallery";
 import Events from "./pages/Events";
 
 function App() {

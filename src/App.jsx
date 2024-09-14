@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import About from "./Components/About/About";
 import Home from "./pages/Home";
 import Gallery from "./pages/gallery";
-import Events from "./pages/Events";
+import Events from "./pages/events";
 
 function App() {
   return (

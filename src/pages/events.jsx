@@ -1,10 +1,10 @@
 import React from "react";
-import "../pages/Events.css";
+import "../pages/events.css";
 import biergarten from "../assets/edelweiss_biergarten.jpg";
 import backroom from "../assets/back_room.png";
 import movie from "../assets/Movie_night.png";
 
-function Events() {
+function events() {
   return (
     <div className="events">
       <div className="eventsText container">
@@ -28,4 +28,4 @@ function Events() {
   );
 }
 
-export default Events;
+export default events;

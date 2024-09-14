@@ -1,11 +1,11 @@
 import React from "react";
-import "../pages/Gallery.css";
+import "../pages/gallery.css";
 import { GoArrowLeft } from "react-icons/go";
 import { GoArrowRight } from "react-icons/go";
 import taps from "../assets/bier_taps.jpg";
 import pretzel from "../assets/food-pretzel.png";
 
-const Gallery = () => {
+const gallery = () => {
   return (
     <div className="gallery">
       <div className="galleryText container">
@@ -25,4 +25,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default gallery;

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Gallery.css";
+import "../pages/Gallery.css";
 import { GoArrowLeft } from "react-icons/go";
 import { GoArrowRight } from "react-icons/go";
 import taps from "../assets/bier_taps.jpg";

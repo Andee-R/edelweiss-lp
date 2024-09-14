@@ -1,5 +1,5 @@
 import React from "react";
-import "./Events.css";
+import "../pages/Events.css";
 import biergarten from "../assets/edelweiss_biergarten.jpg";
 import backroom from "../assets/back_room.png";
 import movie from "../assets/Movie_night.png";

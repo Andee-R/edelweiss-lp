@@ -1,18 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import { FaBars, FaTimes } from "react-icons/fa";
 import edelweisslogo from "../../assets/Flattend_new_logo.png";
 import biermenu from "../../assets/biermenu.pdf";
 import cocktail from "../../assets/cocktails.pdf";
 import food from "../../assets/foodmenu.pdf";
-import { Dropdown } from "bootstrap";
 
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [click, setClick] = useState(false);
-
-  const handleClick = () => setClick(!click);
   const [sticky, setSticky] = useState(false);
 
   useEffect(() => {

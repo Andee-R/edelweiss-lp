@@ -1,8 +1,5 @@
 import React from "react";
 import "./About.css";
-import { FaFacebookF } from "react-icons/fa";
-import { HiPhone } from "react-icons/hi";
-import { CiInstagram } from "react-icons/ci";
 const About = () => {
   return (
     <div className="contactUs ">

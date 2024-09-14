@@ -1,7 +1,5 @@
 import React from "react";
 import "../pages/gallery.css";
-import { GoArrowLeft } from "react-icons/go";
-import { GoArrowRight } from "react-icons/go";
 import taps from "../assets/bier_taps.jpg";
 import pretzel from "../assets/food-pretzel.png";
 

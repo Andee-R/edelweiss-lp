@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
+import { FaBars } from "react-icons/fa";
 import "./Navbar.css";
 import edelweisslogo from "../../assets/Flattend_new_logo.png";
 import biermenu from "../../assets/biermenu.pdf";
@@ -8,6 +9,12 @@ import food from "../../assets/foodmenu.pdf";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
+
   const [sticky, setSticky] = useState(false);
 
   useEffect(() => {
@@ -17,7 +24,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`nav ${sticky ? "darkNav" : ""}`}>
+    <nav ref={navRef} className={`nav ${sticky ? "darkNav" : ""}`}>
       <Link to="/home">
         <img src={edelweisslogo} alt="" className="logo" />
       </Link>
@@ -47,6 +54,9 @@ const Navbar = () => {
         <li>
           <Link to="/gallery">Gallery</Link>
         </li>
+        <button onClick={showNavbar}>
+          <FaBars />
+        </button>
       </ul>
     </nav>
   );

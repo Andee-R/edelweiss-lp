@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import "./App.css";
 import Resident from "./Components/Resident/Resident";
 import Navbar from "./Components/Navbar/Navbar";
@@ -12,6 +12,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
+        <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/events" element={<Events />} />

@@ -13,15 +13,17 @@
   max-width: 800px;
 }
 .eventsText h1 {
-  color: #ffffff;
   font-size: 90px;
   font-weight: 600;
 }
-.eventsText p {
+.eventsText h3 {
   font-size: 35px;
   max-width: 900px;
   margin: 10px auto 20px;
   line-height: 8;
+}
+.eventsText p {
+  font-size: 25px;
 }
 .img-thumbnail {
   width: 400px;

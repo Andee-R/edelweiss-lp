@@ -17,7 +17,8 @@ function events() {
         </div>
         <div className="d-flex justify-content-space-between">
           <img src={movie} alt="" className="img-thumbnail" />
-          <p className="title ">Movie Night Monday's</p>
+          <h3 className="title ">Movie Night Monday's</h3>
+          <p>Every Monday 5pm & 7pm</p>
         </div>
         <div className="d-flex justify-content-space-between">
           <p className="title ">Trivia Night Tuesday's</p>

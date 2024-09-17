@@ -1,6 +1,5 @@
 .nav {
   width: 100%;
-  color: var(--branding-color);
   padding: 4px 0;
   position: fixed;
   top: 0;
@@ -37,7 +36,7 @@
 }
 
 .menuLinks a:hover {
-  color: #91d6f8;
+  color: #a6a5a5;
   transition: all 100ms ease-in-out;
 }
 @media (max-width: 960px) {

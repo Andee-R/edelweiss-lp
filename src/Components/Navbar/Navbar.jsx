@@ -1,11 +1,11 @@
 import React, { useEffect, useState, useRef } from "react";
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 import edelweisslogo from "../../assets/Flattend_new_logo.png";
 import biermenu from "../../assets/biermenu.pdf";
 import cocktail from "../../assets/cocktails.pdf";
 import food from "../../assets/foodmenu.pdf";
-
+import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -28,7 +28,15 @@ const Navbar = () => {
       <Link to="/home">
         <img src={edelweisslogo} alt="" className="logo" />
       </Link>
-
+      <IconContext.Provider
+        value={{ color: "black", className: "react-icons" }}>
+        <button className="btn " onClick={showNavbar}>
+          <FaBars />
+        </button>
+        <button className="btn " onClick={showNavbar}>
+          <FaTimes />
+        </button>
+      </IconContext.Provider>
       <ul className="menuLinks">
         <li>
           <Link to="/home">Home</Link>
@@ -54,9 +62,6 @@ const Navbar = () => {
         <li>
           <Link to="/gallery">Gallery</Link>
         </li>
-        <button onClick={showNavbar}>
-          <FaBars />
-        </button>
       </ul>
     </nav>
   );

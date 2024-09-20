@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
 :root {
   --branding-color: #ffffff;
-  --primary-color: #fff7f5;
+  --primary-color: #f6f5f5;
   --secondary-color: #dae9ee;
 }
 * {
@@ -18,4 +18,11 @@ body {
 .container {
   text-align: center;
   padding-bottom: 25px;
+}
+/*-----media query--------*/
+@media (max-width: 1100px) {
+  h1,
+  h3 {
+    font-size: 80px;
+  }
 }

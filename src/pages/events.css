@@ -1,11 +1,7 @@
 .events {
-  background: linear-gradient(rgba(8, 0, 58, 0.5), rgba(8, 0, 58, 0.5)),
-    url(../assets/back_room.png);
-  background-size: cover;
-  background-position: center;
-  color: var(--primary-color);
   min-height: 100vh;
   width: 100%;
+  background: #161616;
 }
 
 .eventsText {
@@ -13,7 +9,7 @@
   max-width: 800px;
 }
 .eventsText h1 {
-  font-size: 90px;
+  font-size: 60px;
   font-weight: 600;
 }
 .eventsText h3 {
@@ -25,8 +21,8 @@
 .eventsText p {
   font-size: 25px;
 }
-.img-thumbnail {
-  width: 400px;
-  height: 400px;
-  border-radius: 20px;
+.sliderImages {
+  max-width: "1200px";
+  max-height: 500px;
+  margin: 0 auto;
 }

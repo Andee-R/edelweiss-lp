@@ -1,9 +1,9 @@
 import React from "react";
-import "../pages/gallery.css";
+import "../pages/Gallery.css";
 import taps from "../assets/bier_taps.jpg";
 import pretzel from "../assets/food-pretzel.png";
 
-const gallery = () => {
+function Gallery() {
   return (
     <div className="gallery">
       <div className="galleryText container">
@@ -24,6 +24,6 @@ const gallery = () => {
       </div>
     </div>
   );
-};
+}
 
-export default gallery;
+export default Gallery;

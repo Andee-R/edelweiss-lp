@@ -57,7 +57,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/events">Host an Event</Link>
+          <Link to="/hostEvent">Host an Event</Link>
         </li>
         <li>
           <Link to="/gallery">Gallery</Link>

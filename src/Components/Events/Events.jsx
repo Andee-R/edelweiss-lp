@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from "react";
-import "../pages/Events.css";
-import Carousel from "../Components/Carousel/Carousel";
+import "./Events.css";
+import Carousel from "../Carousel/Carousel";
 function Events() {
   return (
     <>

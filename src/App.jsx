@@ -3,9 +3,10 @@ import "./App.css";
 import Resident from "./Components/Resident/Resident";
 import Navbar from "./Components/Navbar/Navbar";
 import About from "./Components/About/About";
+import Events from "./Components/Events/Events";
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery";
-import Events from "./pages/Events";
+import HostEvent from "./pages/HostEvent";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/events" element={<Events />} />
+        <Route path="/hostEvent" element={<HostEvent />} />
       </Routes>
+      <Events />
       <Resident />
       <About />
     </>

@@ -12,13 +12,13 @@ function Gallery() {
       <div className="images container">
         <div className="slider">
           <div className="slide">
-            <img src={pretzel} class="img-thumbnail img-fluid" alt="..." />
+            <img src={pretzel} className="img-thumbnail img-fluid" alt="..." />
 
-            <img src={taps} class="img-thumbnail img-fluid" alt="..." />
+            <img src={taps} className="img-thumbnail img-fluid" alt="..." />
 
-            <img src={taps} class="img-thumbnail img-fluid" alt="..." />
+            <img src={taps} className="img-thumbnail img-fluid" alt="..." />
 
-            <img src={taps} class="img-thumbnail img-fluid " alt="..." />
+            <img src={taps} className="img-thumbnail img-fluid " alt="..." />
           </div>
         </div>
       </div>

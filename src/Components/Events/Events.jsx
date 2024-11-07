@@ -2,6 +2,7 @@ import { useState } from "react";
 import React from "react";
 import "./Events.css";
 import Carousel from "../Carousel/Carousel";
+
 function Events() {
   return (
     <>

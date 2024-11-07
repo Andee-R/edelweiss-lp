@@ -1,7 +1,7 @@
 import React from "react";
 import "./Resident.css";
 
-const Resident = () => {
+function Resident() {
   return (
     <>
       <div className="resident">
@@ -16,5 +16,5 @@ const Resident = () => {
       </div>
     </>
   );
-};
+}
 export default Resident;

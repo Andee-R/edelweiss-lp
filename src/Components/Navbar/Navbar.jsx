@@ -8,7 +8,7 @@ import food from "../../assets/foodmenu.pdf";
 import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+function Navbar() {
   const navRef = useRef();
 
   const showNavbar = () => {
@@ -57,7 +57,9 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/hostEvent">Host an Event</Link>
+          <Link to="/hostEvent" target="_blank">
+            Host an Event
+          </Link>
         </li>
         <li>
           <Link to="/gallery">Gallery</Link>
@@ -65,6 +67,6 @@ const Navbar = () => {
       </ul>
     </nav>
   );
-};
+}
 
 export default Navbar;

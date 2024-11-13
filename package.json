@@ -13,10 +13,9 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
-    "react-image-carousel": "2.0.18",
     "react-router-dom": "^6.26.1",
     "react-router-hash-link": "^2.4.3",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^3.0.1",
     "react-scroll": "^1.9.0",
     "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
@@ -46,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "0": "@babel/plugin-proposal-private-property-in-object"
+    "0": "@babel/plugin-proposal-private-property-in-object",
+    "tailwindcss": "^3.4.14"
   }
 }

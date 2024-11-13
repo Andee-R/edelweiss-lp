@@ -1,5 +1,7 @@
 import React from "react";
 import "./Home.css";
+import Resident from "../Components/Resident/Resident";
+import Events from "../Components/Events/Events";
 
 function Home() {
   return (
@@ -38,6 +40,8 @@ function Home() {
         </p>
         <button className="btn">Read Our Reviews</button>
       </div>
+      <Resident />
+      <Events />
     </div>
   );
 }

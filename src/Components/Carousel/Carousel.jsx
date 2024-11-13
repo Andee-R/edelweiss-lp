@@ -1,48 +1,30 @@
 import React, { useState } from "react";
 import "./Carousel.css";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-
-const images = [
-  {
-    title: "Oktoberfest - 9/21-10/30",
-    subtitle: "Join us for some fun!",
-    img: oktoberfest,
-  },
-  {
-    title: "Movie Night Monday's",
-    subtitle: "Every Monday 5pm & 7pm",
-    img: "./assets/Movie_night.png",
-  },
-  {
-    title: "Trivia Night Tuesday's",
-    subtitle: "work your brain muscles!",
-    img: "../assets/back_room.png",
-  },
-];
+/*import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import images from "./images";*/
 
 const Carousel = () => {
-  const [currImg, setCurrImg] = React.useState(0);
   return (
-    <div className="carousel">
-      <div
-        className="carouselInner"
-        style={{ backgroundImage: `url(${images[currImg].img})` }}>
-        <button
-          className="btn left"
-          onClick={() => {
-            setCurrImg(currImg - 1);
-          }}>
+    <div>
+      <p>Hello</p>
+    </div>
+    /* <motion.div className="carousel">
+      <motion.div className="carouselInner">
+        <button className="btn left">
+          {images.map((image) => {
+            return (
+              <motion.div className="item">
+                <img src="{image}" alt="" />
+              </motion.div>
+            );
+          })}
           <FaArrowLeft />
         </button>
-        <button
-          className="btn right"
-          onClick={() => {
-            setCurrImg(currImg + 1);
-          }}>
+        <button className="btn right">
           <FaArrowRight />
         </button>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>*/
   );
 };
 
